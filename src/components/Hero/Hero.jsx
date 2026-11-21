@@ -158,11 +158,11 @@ function Hero() {
                         روایتی از هنــــــــر
                     </h1>
                     <p dir='rtl'
-                        className='xl:w-100 lg:90 sm:max-md:w-68 w-60 text-txt md:mt-4 mt-3 text-[12px] lg:text-[15px] xl:text-[17px] sm:max-md:text-[13px] font-light leading-7'>
+                        className='xl:w-100 lg:90 sm:max-md:w-68 w-45 text-txt md:mt-4 mt-3 text-[12px] lg:text-[15px] xl:text-[17px] sm:max-md:text-[13px] font-light leading-7'>
                         در آذین‌گلد، هر اثر با نگاهی هنرمندانه شکل می‌گیرد؛ تلفیقی از ظرافت، اصالت و طراحی‌هایی که زیبایی را به شکلی متفاوت روایت می‌کنند
                     </p>
                     {/*----button----*/}
-                    <div dir='rtl' className='md:mt-6 mt-5 flex gap-4 justify-self-start items-center xl:w-80 lg:w-70 sm:max-md:w-50 w-45 md:text-[17px] sm:max-md:text-[14px] text-[13px]'>
+                    <div dir='rtl' className='md:mt-6 mt-5 flex flex-col md:flex-row gap-4 justify-self-start items-start md:items-center xl:w-80 lg:w-70 sm:max-md:w-50 w-45 md:text-[17px] sm:max-md:text-[14px] text-[13px]'>
 
                         <button className='flex flex-row xl:w-40 shrink-0 justify-center gap-3 bg-primary hover:bg-hover-button active:bg-active-button transition-all duration-500 ease-in-out text-hero hover:text-white px-4 py-2.5 rounded-[5px] cursor-pointer whitespace-nowrap'>
                             <span>محصولات</span>

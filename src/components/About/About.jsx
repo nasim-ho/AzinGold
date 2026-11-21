@@ -3,7 +3,7 @@ import RightImg from '../../assets/images/About-right.webp'
 
 function About (){
     return(
-        <section className='bg-[#f0edec] h-120 md:h-full py-13 px-5 sm:max-md:px-8 lg:mt-20 md:mt-14 mt-13 overflow-hidden flex flex-col justify-center items-center'>
+        <section className='bg-[#f0edec] h-120 md:h-full py-13 px-5 sm:max-md:px-8 lg:mt-17 md:mt-14 mt-13 overflow-hidden flex flex-col justify-center items-center'>
             <div className='grid grid-cols-2 gap-8 md:gap-0 md:grid-cols-3 grid-rows-1 w-full h-130'>
                 {/*------------left picture-------------*/}
                 <div className='h-full w-full md:flex hidden rounded-[3px] overflow-hidden'>

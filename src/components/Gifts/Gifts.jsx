@@ -3,7 +3,7 @@ import GiftsImg2 from '../../assets/images/gift1.webp'
 
 function Gifts() {
     return (
-        <section className='px-5 sm:max-md:px-8 lg:mt-20 md:mt-14 mt-13 overflow-hidden flex flex-col justify-center items-center'>
+        <section className='px-5 sm:max-md:px-8 lg:mt-17 md:mt-14 mt-13 overflow-hidden flex flex-col justify-center items-center'>
             <div dir='rtl' className='grid grid-cols-1 lg:grid-cols-[1.8fr_3fr]'>
                 {/*------------content-------------*/}
                 <div dir='rtl' className='flex flex-col w-full justify-center order-2 lg:order-1'>

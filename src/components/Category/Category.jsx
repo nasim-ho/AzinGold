@@ -22,7 +22,7 @@ function Category() {
     return (
         <section className='px-5 sm:max-md:px-8 flex flex-col justify-center items-center'>
             {/*------------title-------------*/}
-            <div className='lg:pt-17 md:pt-14 pt-9 flex justify-center items-center'>
+            <div className='lg:mt-17 md:mt-14 mt-13 flex justify-center items-center'>
                 <img src={Arrow} alt="Arrow" className='w-15 md:w-27 lg:w-35 xl:w-50 mr-3' />
                 <h2 className='text-gold font-bold text-[22px] md:text-[27px] xl:text-[30px]'>
                     دسته‌بندی‌های آذین‌گلد

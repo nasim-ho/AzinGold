@@ -6,7 +6,7 @@ import Ring from '../../assets/images/Collection-ring.webp'
 
 function Collection() {
     return (
-        <section className='px-5 sm:max-md:px-8 flex flex-col py-13 lg:mt-20 md:mt-14 mt-13 justify-center items-center bg-[#f0edec]'>
+        <section className='px-5 sm:max-md:px-8 flex flex-col py-13 lg:mt-17 md:mt-14 mt-13 justify-center items-center bg-[#f0edec]'>
             <div className='grid grid-cols-1 lg:grid-cols-3 w-full '>
                 {/*------------pictures-------------*/}
                 <div dir='rtl' className='col-span-2'>

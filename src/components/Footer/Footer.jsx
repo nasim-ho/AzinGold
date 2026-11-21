@@ -4,7 +4,7 @@ import Etemad from '../../assets/images/etemad.png'
 
 function Footer() {
     return (
-        <footer className='bg-primary px-5 sm:max-md:px-8 py-13 lg:mt-20 md:mt-14 mt-13 overflow-hidden flex flex-col justify-center items-center'>
+        <footer className='bg-primary px-5 sm:max-md:px-8 py-13 lg:mt-17 md:mt-14 mt-13 overflow-hidden flex flex-col justify-center items-center'>
 
             <div dir='ltr' className='w-full max-w-6xl grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-10 md:gap-12 xl:gap-20 text-hero items-start justify-items-center'>
 
