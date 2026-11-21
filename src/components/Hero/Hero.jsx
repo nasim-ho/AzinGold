@@ -46,7 +46,7 @@ function Hero() {
         <section className='overflow-hidden h-115 md:h-163 lg:h-147 xl:h-163 flex flex-col justify-center  pt-3 pb-0 background-hero'>
 
 
-            <div className='grid relative px-5 sm:max-md:px-8 h-full grid-cols-[42%_58%] md:grid-cols-2 items-center'>
+            <div className='grid relative px-5 sm:max-md:px-8 md:px-8 xl:px-10 h-full grid-cols-[42%_58%] md:grid-cols-2 items-center'>
                 {/*------------image of girl-------------*/}
                 <div className='absolute z-0 top-0 bottom-0 left-0
                 w-[42%] 
@@ -54,7 +54,7 @@ function Hero() {
                 md:-translate-x-1/2 md:w-183
                 md:overflow-visible'>
                     <img src={Girl} alt="image of hero"
-                        className='absolute bottom-0 left-[30%] sm:max-md:left-[60%] lg:left-1/2
+                        className='absolute bottom-0 left-[20%] sm:max-md:left-[60%] lg:left-1/2
                -translate-x-1/2 w-120 sm:max-md:w-130 md:w-183 lg:w-163 xl:w-183 max-w-none h-auto
                pointer-events-none '
                     />
@@ -158,7 +158,7 @@ function Hero() {
                         روایتی از هنــــــــر
                     </h1>
                     <p dir='rtl'
-                        className='xl:w-100 lg:90 sm:max-md:w-68 w-45 text-txt md:mt-4 mt-3 text-[12px] lg:text-[15px] xl:text-[17px] sm:max-md:text-[13px] font-light leading-7'>
+                        className='xl:w-100 lg:w-70 sm:max-md:w-68 md:w-60 w-48 text-txt md:mt-4 mt-3 text-[12px] md:text-[14px] lg:text-[15px] xl:text-[17px] sm:max-md:text-[13px] font-light leading-7'>
                         در آذین‌گلد، هر اثر با نگاهی هنرمندانه شکل می‌گیرد؛ تلفیقی از ظرافت، اصالت و طراحی‌هایی که زیبایی را به شکلی متفاوت روایت می‌کنند
                     </p>
                     {/*----button----*/}

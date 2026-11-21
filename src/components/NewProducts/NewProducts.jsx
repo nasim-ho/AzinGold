@@ -73,7 +73,7 @@ function BestSellers() {
     {/*------------Slider speed with Swiper button-------------*/ }
     const swiperRef = useRef(null)
     return (
-        <section className='px-5 sm:max-md:px-8 flex flex-col w-full lg:mt-17 md:mt-14 mt-13'>
+        <section className='px-5 sm:max-md:px-8 md:px-8 xl:px-10 flex flex-col w-full lg:mt-17 md:mt-14 mt-13'>
             {/*------------title-------------*/}
             <div dir='rtl' className='w-full flex justify-between items-center'>
                 <h2 className='text-gold font-bold text-[22px] md:text-[27px] xl:text-[30px]'>

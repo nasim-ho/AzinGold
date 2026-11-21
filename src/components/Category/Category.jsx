@@ -20,7 +20,7 @@ import Arrow from '../../assets/images/arrow.png'
 
 function Category() {
     return (
-        <section className='px-5 sm:max-md:px-8 flex flex-col justify-center items-center'>
+        <section className='px-5 sm:max-md:px-8 md:px-8 xl:px-10 flex flex-col justify-center items-center'>
             {/*------------title-------------*/}
             <div className='lg:mt-17 md:mt-14 mt-13 flex justify-center items-center'>
                 <img src={Arrow} alt="Arrow" className='w-15 md:w-27 lg:w-35 xl:w-50 mr-3' />

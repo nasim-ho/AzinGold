@@ -6,7 +6,7 @@ import Ring from '../../assets/images/Collection-ring.webp'
 
 function Collection() {
     return (
-        <section className='px-5 sm:max-md:px-8 flex flex-col py-13 lg:mt-17 md:mt-14 mt-13 justify-center items-center bg-[#f0edec]'>
+        <section className='px-5 sm:max-md:px-8 md:px-8 xl:px-10 flex flex-col py-13 lg:mt-17 md:mt-14 mt-13 justify-center items-center bg-[#f0edec]'>
             <div className='grid grid-cols-1 lg:grid-cols-3 w-full '>
                 {/*------------pictures-------------*/}
                 <div dir='rtl' className='col-span-2'>
@@ -47,7 +47,7 @@ function Collection() {
                         <br className='hidden lg:flex' />
                         <span> تجلی شکوه و درخشش </span>
                     </h2>
-                    <p className='xl:w-100 lg:w-80 w-full text-txt md:mt-4 mt-3 text-[13px] lg:text-[15px] xl:text-[15px] sm:max-md:text-[13px] font-light leading-7'>
+                    <p className='xl:w-100 lg:w-75 w-full text-txt md:mt-4 mt-3 text-[13px] lg:text-[15px] xl:text-[15px] md:text-[14px] sm:max-md:text-[13px] font-light leading-7'>
                         ققنوس، پرنده‌ای افسانه‌ای و نماد برخاستن دوباره است. این کالکشن، برداشتی امروزی از این اسطوره را در قالب جواهراتی با طراحی متمایز و درخشش چشم‌نواز طلا به تصویر می‌کشد.
                     </p>
                     <button className='flex flex-row items-center gap-3 w-35 md:w-37 lg:w-42 whitespace-nowrap md:text-[16px] sm:max-md:text-[14px] text-[13px] md:mt-6 mt-5 justify-center bg-primary hover:bg-hover-button active:bg-active-button transition-all duration-500 ease-in-out text-hero hover:text-white px-4 py-2.5 col-span-2 rounded-[5px] cursor-pointer'>
