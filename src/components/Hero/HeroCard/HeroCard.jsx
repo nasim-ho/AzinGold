@@ -1,9 +1,9 @@
 function HeroCard({image, name, price}) {
     return (
         <div className='group cursor-pointer'>
-            <div className='flex border border-gold/20 hover:border-gold/35 rounded-[3px] lg:w-28 lg:h-31 xl:w-34 xl:h-37 bg-hero/40 group-hover:bg-white/50 transition-all duration-500 justify-center items-center px-4 py-5'>
+            <div className='flex border border-gold/20 hover:border-gold/35 rounded-[3px] lg:w-28 lg:h-31 xl:w-34 xl:h-37 bg-hero/40 group-hover:bg-white/40 transition-all duration-500 justify-center items-center px-4 py-5'>
                 <img src={image} alt="image of card"
-                    className='w-23 group-hover:scale-103 transition-all duration-800'
+                    className='w-23 group-hover:scale-102 transition-all duration-800'
                 />
             </div>
             <a href="#" dir='rtl' className='flex flex-col mt-2'>

@@ -5,7 +5,7 @@ import { useState } from 'react'
 function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
     return (
-        <header className='px-5 sm:max-md:px-8 pt-2 sticky top-0 z-80 pb-2 bg-[#f0edec]'>
+        <header className='px-5 sm:max-md:px-8 pt-2 sticky top-0 z-80 pb-2 bg-[#E8E5E3]'>
             {/*--------------------------MOBILE---------------------*/}
             <div className='flex items-center justify-between md:hidden'>
                 {/*----basket icon----*/}

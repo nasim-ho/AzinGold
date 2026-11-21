@@ -71,7 +71,7 @@ function Hero() {
                         <div className='flex gap-3'>
                             <button 
                             onClick={() => swiperRef.current?.slideNext(1000)}
-                            className='group best-sellers-next cursor-pointer rounded-[3px] px-2 w-full h-full bg-[#f7f7f7] hover:bg-gold active:bg-[#CFA230] transition-all duration-500 ease-in-out'>
+                            className='group best-sellers-next cursor-pointer rounded-[3px] px-2 w-full h-full bg-[#F4F2F1] hover:bg-gold active:bg-[#CFA230] transition-all duration-500 ease-in-out'>
                                 <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path className="group-hover:stroke-white transition-colors" d="M1 1L6 6L1 11" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" stroke="#44133B" />
                                 </svg>
@@ -79,7 +79,7 @@ function Hero() {
 
                             <button 
                             onClick={() => swiperRef.current?.slideNext(1000)}
-                            className='group best-sellers-prev cursor-pointer rounded-[3px] px-2 w-full h-full bg-[#f7f7f7] hover:bg-gold active:bg-[#CFA230] transition-all duration-500 ease-in-out'>
+                            className='group best-sellers-prev cursor-pointer rounded-[3px] px-2 w-full h-full bg-[#F4F2F1] hover:bg-gold active:bg-[#CFA230] transition-all duration-500 ease-in-out'>
                                 <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path className="group-hover:stroke-white transition-colors" d="M6 11L1 6L6 1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" stroke="#44133B" />
                                 </svg>
