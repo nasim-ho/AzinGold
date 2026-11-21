@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Donia';
+    src: url('../assets/fonts/Mj_Donia.woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('../assets/fonts/Vazir.woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('../assets/fonts/Vazir-Light.woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('../assets/fonts/Vazir-Medium.woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('../assets/fonts/Vazir-Bold.woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@theme {
+  --font-Donia: "Donia", serif;
+  --font-Vazir: "Vazir", sans-serif;
+
+  --color-primary: #44133B;
+  --color-gold: #B18B2A;
+  --color-txt: #120F07;
+  --color-txt-button: #FBFBFB;
+
+  --color-hero: #F8F5F3;
+  --color-hover-button: #300C29;
+  --color-active-button: #5B1A4F;
+  --color-hover-text: #F9EEEB;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Vazir", sans-serif;
+  font-weight: 400;
+  background-color: #FEFCFC;
+  color: var(--color-txt);
+}
