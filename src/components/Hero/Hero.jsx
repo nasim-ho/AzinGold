@@ -159,7 +159,7 @@ function Hero() {
                     </h1>
                     <p dir='rtl'
                         className='xl:w-100 lg:w-70 sm:max-md:w-68 md:w-60 w-48 text-txt md:mt-4 mt-3 text-[12px] md:text-[14px] lg:text-[15px] xl:text-[17px] sm:max-md:text-[13px] font-light leading-7'>
-                        در آذین‌گلد، هر اثر با نگاهی هنرمندانه شکل می‌گیرد؛ تلفیقی از ظرافت، اصالت و طراحی‌هایی که زیبایی را به شکلی متفاوت روایت می‌کنند
+                        در آذین‌گلد، هر اثر با نگاهی هنرمندانه شکل می‌گیرد؛ تلفیقی از ظرافت، اصالت و طراحی‌هایی که زیبایی را به شکلی متفاوت روایت می‌کنند.
                     </p>
                     {/*----button----*/}
                     <div dir='rtl' className='md:mt-6 mt-5 flex flex-col md:flex-row gap-4 justify-self-start items-start md:items-center xl:w-80 lg:w-70 sm:max-md:w-50 w-45 md:text-[17px] sm:max-md:text-[14px] text-[13px]'>
