@@ -170,7 +170,7 @@ function Hero() {
                                 <path d="M14.2 6.28405C14.2 8.27227 12.5882 9.88405 10.6 9.88405C8.61177 9.88405 7 8.27227 7 6.28405M3.32727 18.884H17.8727C19.158 18.884 20.2 17.8615 20.2 16.6L18.7091 3.28402C18.7091 2.02259 17.6671 1 16.3818 1H4.52727C3.24196 1 2.2 2.02259 2.2 3.28402L1 16.6C1 17.8615 2.04196 18.884 3.32727 18.884Z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" stroke="#FBFBFB" />
                             </svg>
                         </button>
-                        <a href="#" className='group flex shrink-0 whitespace-nowrap justify-center items-center gap-3 hover:gap-4 hover:text-primary transition-all duration-300 ease-in-out text-center'>
+                        <a href="#" className='group flex pr-1 shrink-0 whitespace-nowrap justify-center items-center gap-3 hover:gap-4 hover:text-primary transition-all duration-300 ease-in-out text-center'>
                             <span>کالکشن‌ها</span>
                             <svg className='shrink-0 w-3.75 h-3.25 md:w-4.5 md:h-4' viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path className='group-hover:stroke-primary' d="M7.66667 1L1 8L7.66667 15M1 8L17 8" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" stroke="#120F07" />
